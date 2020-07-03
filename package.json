@@ -5,6 +5,10 @@
   "private": true,
   "author": "leandrorezendecoutinho",
   "license": "UNLICENSED",
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  },
   "scripts": {
     "build": "webpack --config config/webpack/development.js",
     "watch": "webpack -w --config config/webpack/development.js",
